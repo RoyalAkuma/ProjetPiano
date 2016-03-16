@@ -625,7 +625,7 @@ color: white;</string>
       <bool>true</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true"/>
+      <string notr="true">background-image: url(:/images/images/partition.png);</string>
      </property>
     </widget>
    </widget>

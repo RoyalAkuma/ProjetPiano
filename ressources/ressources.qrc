@@ -1,9 +1,9 @@
 <RCC>
     <qresource prefix="/images">
-        <file>images/cledesol.png</file>
-        <file>images/note.png</file>
-        <file>images/notebonne.png</file>
-        <file>images/notemauvaise.png</file>
+        <file>images/partition.png</file>
+        <file>images/note1.png</file>
+        <file>images/notebonne1.png</file>
+        <file>images/notemauvaise1.png</file>
     </qresource>
     <qresource prefix="/sons">
         <file>sons/do2M.wav</file>
