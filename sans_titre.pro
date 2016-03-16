@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT      += svg
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -23,5 +24,4 @@ DISTFILES += \
     ../../Desktop/IHM/socle.png
 
 RESOURCES += \
-    ressources/ressources.qrc
-
+    ../build-sans_titre-Desktop_Qt_5_5_1_MinGW_32bit-Release/release/ressources/ressources.qrc
