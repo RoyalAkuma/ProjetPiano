@@ -1,0 +1,9 @@
+
+void MainWindow::paintEvent() {
+    QPainter painter(this);
+    painter.drawImage(QPoint(100, 100), QImage("../ProjetPiano/ressources/images/note1.png"));
+    painter.end();
+}
+
+
+
