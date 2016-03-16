@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/clédesol.png</file>
+        <file>images/note.png</file>
+        <file>images/notebonne.png</file>
+        <file>images/notemauvaise.png</file>
+    </qresource>
+    <qresource prefix="/sons">
+        <file>sons/do2M.wav</file>
+        <file>sons/do2MD.wav</file>
+        <file>sons/dom.wav</file>
+        <file>sons/domD.wav</file>
+        <file>sons/fa2M.wav</file>
+        <file>sons/fa2MD.wav</file>
+        <file>sons/fam.wav</file>
+        <file>sons/famD.wav</file>
+        <file>sons/la2M.wav</file>
+        <file>sons/la2MD.wav</file>
+        <file>sons/lam.wav</file>
+        <file>sons/lamD.wav</file>
+        <file>sons/mi2M.wav</file>
+        <file>sons/mim.wav</file>
+        <file>sons/re2M.wav</file>
+        <file>sons/re2MD.wav</file>
+        <file>sons/rem.wav</file>
+        <file>sons/remD.wav</file>
+        <file>sons/si2M.wav</file>
+        <file>sons/sim.wav</file>
+        <file>sons/sol2M.wav</file>
+        <file>sons/sol2MD.wav</file>
+        <file>sons/solm.wav</file>
+        <file>sons/solmD.wav</file>
+    </qresource>
+    
+    </RCC>

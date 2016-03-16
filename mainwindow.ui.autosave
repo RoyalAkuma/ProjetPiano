@@ -392,8 +392,7 @@
       <bool>true</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-image: url(:/ressources/images/note.png);
-background-image: url(:/images/images/notemauvaise.png);</string>
+      <string notr="true"/>
      </property>
     </widget>
    </widget>
