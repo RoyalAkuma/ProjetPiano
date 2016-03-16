@@ -2,8 +2,10 @@
 #include "ui_mainwindow.h"
 #include "QSound"
 #include "QString"
-#include "iostream"
-
+#include <iostream>
+#include <string>
+#include <fstream>
+#include "ctime"
 using namespace std;
 
 string chemin = "../ProjetPiano/ressources/sons/";
@@ -33,9 +35,27 @@ void MainWindow::sons(string s){
     QSound::play(qstr);
 }
 
+void MainWindow::log(string s){
+    ofstream fichier("log.txt", ios::app);  // ouverture en écriture avec effacement du fichier ouvert
+
+            if(fichier)
+            {
+                time_t t;
+                time(&t);
+                string time =  ctime(&t) ;
+                time[time.size()-1]=':';
+                    fichier<<time<< s << endl;
+
+                    fichier.close();
+            }
+            else
+                    cerr << "Impossible d'ouvrir le fichier !" << endl;
+}
+
 void MainWindow::on_B1Do_clicked()
 {
     sons("do2M");
+    log("doM");
 }
 
 

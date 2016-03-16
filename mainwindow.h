@@ -67,6 +67,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     void sons(std::string);
+    void log(std::string);
 };
 
 #endif // MAINWINDOW_H
