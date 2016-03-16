@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "keyboard.h"
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -27,4 +26,11 @@ void MainWindow::on_B1Do_clicked()
 {
 
 }
+
+
+void MainWindow::on_B2Re_clicked()
+{
+
+}
+
 

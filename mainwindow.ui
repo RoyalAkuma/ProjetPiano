@@ -60,18 +60,30 @@
        <verstretch>10</verstretch>
       </sizepolicy>
      </property>
+     <property name="minimumSize">
+      <size>
+       <width>51</width>
+       <height>0</height>
+      </size>
+     </property>
      <property name="maximumSize">
       <size>
        <width>16777215</width>
        <height>211</height>
       </size>
      </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
      <property name="styleSheet">
       <string notr="true">background-color: white
 </string>
      </property>
      <property name="text">
-      <string>Do</string>
+      <string>
+
+
+Do</string>
      </property>
      <property name="checkable">
       <bool>false</bool>
@@ -102,7 +114,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Re</string>
+      <string>
+
+
+Re</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B4Fa">
@@ -124,7 +139,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Fa</string>
+      <string>
+
+
+Fa</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B3Mi">
@@ -146,7 +164,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Mi</string>
+      <string>
+
+
+Mi</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B5Sol">
@@ -168,7 +189,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Sol</string>
+      <string>
+
+
+Sol</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B9Re2">
@@ -190,7 +214,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Re2</string>
+      <string>
+
+
+Re2</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_12Sol2">
@@ -212,7 +239,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Sol2</string>
+      <string>
+
+
+Sol2</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_13La2">
@@ -234,7 +264,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>La2</string>
+      <string>
+
+
+La2</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_14Si2">
@@ -256,7 +289,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Si2</string>
+      <string>
+
+
+Si2</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B6La">
@@ -278,7 +314,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>La</string>
+      <string>
+
+
+La</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B8Do2">
@@ -300,7 +339,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Do2</string>
+      <string>
+
+
+Do2</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B7Si">
@@ -322,7 +364,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Si</string>
+      <string>
+
+
+Si</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_10Mi2">
@@ -344,7 +389,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Mi2</string>
+      <string>
+
+
+Mi2</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_11Fa2">
@@ -366,7 +414,10 @@
       <string notr="true">background-color: white;</string>
      </property>
      <property name="text">
-      <string>Fa2</string>
+      <string>
+
+
+Fa2</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C1">
@@ -379,10 +430,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Do#</string>
      </property>
      <property name="checkable">
       <bool>false</bool>
@@ -398,10 +450,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Re#</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C3">
@@ -414,10 +467,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Fa#</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C4">
@@ -430,10 +484,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Sol#</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C5">
@@ -446,10 +501,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>La#</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C6">
@@ -462,10 +518,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Do#</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C7">
@@ -478,10 +535,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Re#</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C8">
@@ -494,10 +552,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Fa#</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C9">
@@ -510,10 +569,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Sol#</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C_10">
@@ -526,10 +586,11 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: black</string>
+      <string notr="true">background-color: black;
+color: white;</string>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>La#</string>
      </property>
     </widget>
    </widget>
