@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/images">
-        <file>images/partition.png</file>
+        <file>images/partition1.png</file>
     </qresource>
     <qresource prefix="/sons">
         <file>sons/do2M.wav</file>
