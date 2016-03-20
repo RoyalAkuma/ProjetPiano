@@ -6,6 +6,4 @@ void MainWindow::paintEvent() {
 }
 
 
-background-image: url(:/images/images/partition.png);
-
 

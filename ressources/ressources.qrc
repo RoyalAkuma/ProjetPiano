@@ -1,9 +1,6 @@
 <RCC>
     <qresource prefix="/images">
         <file>images/partition.png</file>
-        <file>images/note1.png</file>
-        <file>images/notebonne1.png</file>
-        <file>images/notemauvaise1.png</file>
     </qresource>
     <qresource prefix="/sons">
         <file>sons/do2M.wav</file>
@@ -30,5 +27,17 @@
         <file>sons/sol2MD.wav</file>
         <file>sons/solm.wav</file>
         <file>sons/solmD.wav</file>
+        <file>images/dnote.png</file>
+        <file>images/dnoteb.png</file>
+        <file>images/dnotebr.png</file>
+        <file>images/dnotem.png</file>
+        <file>images/dnotemr.png</file>
+        <file>images/dnoter.png</file>
+        <file>images/note.png</file>
+        <file>images/noteb.png</file>
+        <file>images/notebr.png</file>
+        <file>images/notem.png</file>
+        <file>images/notemr.png</file>
+        <file>images/noter.png</file>
     </qresource>
 </RCC>

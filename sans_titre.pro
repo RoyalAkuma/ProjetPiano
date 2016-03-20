@@ -13,9 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    note.cpp \
+    partition.cpp \
+    factorynote.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    note.h \
+    partition.h \
+    factorynote.h
 
 FORMS    += mainwindow.ui
 

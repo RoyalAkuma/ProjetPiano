@@ -11,25 +11,12 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>DoReMi</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-image: url(socle.png);</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QLabel" name="parent">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>10</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PianoTruc</string>
-    </property>
-   </widget>
    <widget class="QWidget" name="Keyboard" native="true">
     <property name="geometry">
      <rect>
@@ -628,6 +615,28 @@ color: white;</string>
       <string notr="true">background-image: url(:/images/images/partition.png);</string>
      </property>
     </widget>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>10</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Choix de la partition :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="choixPartition"/>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
