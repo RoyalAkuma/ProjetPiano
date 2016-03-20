@@ -33,9 +33,9 @@ MainWindow::MainWindow(QWidget *parent) :
     //ratio->setSizePolicy();
 
     QPushButton* rejouer= new QPushButton();
-    rejouer->setText("rejouer");
+    rejouer->setText("Rejouer");
     QPushButton* suivant= new QPushButton();
-    suivant->setText("suivant");
+    suivant->setText("Suivant");
     total->addWidget(nbNote);
     resultat->addLayout(total);
     reussite->addWidget(nbNotesBonnes);
@@ -48,7 +48,7 @@ MainWindow::MainWindow(QWidget *parent) :
     boutons->addWidget(suivant);
     resultat->addLayout(boutons);
 
-
+    nbNotesFausse->setAlignment(Qt::AlignRight);
 
     total->setAlignment(Qt::AlignCenter);
 
@@ -70,6 +70,8 @@ MainWindow::MainWindow(QWidget *parent) :
     partieBas->setLayout(resultat);
     partieBas->hide();
     partieBas->setGeometry(0,270,941,231);
+
+    ui->aide->setChecked(true);
 
 
 
@@ -195,7 +197,7 @@ void MainWindow::log(string s){
          cerr << "Impossible d'ouvrir le fichier !" << endl;
 }
 
-
+//desactive la combobox
 void MainWindow::disable(){
     for(int i = 0; i<nbPartitions;++i){
         // Get the index of the value to disable
@@ -209,6 +211,7 @@ void MainWindow::disable(){
     }
 }
 
+//active la combobox
 void MainWindow::enable(){
     for(int i = 0; i<nbPartitions;++i){
         // Get the index of the value to disable
@@ -494,7 +497,7 @@ void MainWindow::on_C4_clicked()
 
 void MainWindow::on_C5_clicked()
 {
-    string s = "doMd";
+    string s = "laMd";
     sons("la2MD");
     log(s);
     addCouleursNotes(s);
@@ -506,7 +509,7 @@ void MainWindow::on_C5_clicked()
 void MainWindow::on_C6_clicked()
 {
     sons("domD");
-    string s = "domD";
+    string s = "domd";
     log(s);
     addCouleursNotes(s);
     nbNotesJouer++;
@@ -517,7 +520,7 @@ void MainWindow::on_C6_clicked()
 void MainWindow::on_C7_clicked()
 {
     sons("remD");
-    string s = "domD";
+    string s = "remd";
     log(s);
     addCouleursNotes(s);
     nbNotesJouer++;
@@ -561,4 +564,60 @@ void MainWindow::on_C_10_clicked()
 void MainWindow::on_choixPartition_activated(const QString &arg1)
 {
     ecriturePartition(arg1);
+}
+
+void MainWindow::on_aide_stateChanged(int arg1)
+{
+    if(arg1 == 2){
+        ui->B1Do->setText("\n\n\nDo");
+        ui->B2Re->setText("\n\n\nRe");
+        ui->B3Mi->setText("\n\n\nMi");
+        ui->B4Fa->setText("\n\n\nFa");
+        ui->B5Sol->setText("\n\n\nSol");
+        ui->B6La->setText("\n\n\nLa");
+        ui->B7Si->setText("\n\n\nSi");
+        ui->B8Do2->setText("\n\n\nDo");
+        ui->B9Re2->setText("\n\n\nRe");
+        ui->B_10Mi2->setText("\n\n\nMi");
+        ui->B_11Fa2->setText("\n\n\nFa");
+        ui->B_12Sol2->setText("\n\n\nSol");
+        ui->B_13La2->setText("\n\n\nLa");
+        ui->B_14Si2->setText("\n\n\nSi");
+        ui->C1->setText("\n\n\nDo#");
+        ui->C2->setText("\n\n\nRe#");
+        ui->C3->setText("\n\n\nFa#");
+        ui->C4->setText("\n\n\nSol#");
+        ui->C5->setText("\n\n\nLa#");
+        ui->C6->setText("\n\n\nDo#");
+        ui->C7->setText("\n\n\nRe#");
+        ui->C8->setText("\n\n\nFa#");
+        ui->C9->setText("\n\n\nSol#");
+        ui->C_10->setText("\n\n\nLa#");
+    } else {
+        ui->B1Do->setText("");
+        ui->B2Re->setText("");
+        ui->B3Mi->setText("");
+        ui->B4Fa->setText("");
+        ui->B5Sol->setText("");
+        ui->B6La->setText("");
+        ui->B7Si->setText("");
+        ui->B8Do2->setText("");
+        ui->B9Re2->setText("");
+        ui->B_10Mi2->setText("");
+        ui->B_11Fa2->setText("");
+        ui->B_12Sol2->setText("");
+        ui->B_13La2->setText("");
+        ui->B_14Si2->setText("");
+        ui->C1->setText("");
+        ui->C2->setText("");
+        ui->C3->setText("");
+        ui->C4->setText("");
+        ui->C5->setText("");
+        ui->C6->setText("");
+        ui->C7->setText("");
+        ui->C8->setText("");
+        ui->C9->setText("");
+        ui->C_10->setText("");
+
+    }
 }

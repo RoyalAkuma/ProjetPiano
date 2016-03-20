@@ -89,6 +89,8 @@ private slots:
 
     void on_suivant_clicked();
 
+    void on_aide_stateChanged(int arg1);
+
 private:
 
     QLabel* partition;

@@ -204,7 +204,7 @@ Sol</string>
       <string>
 
 
-Re2</string>
+Re</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_12Sol2">
@@ -229,7 +229,7 @@ Re2</string>
       <string>
 
 
-Sol2</string>
+Sol</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_13La2">
@@ -254,7 +254,7 @@ Sol2</string>
       <string>
 
 
-La2</string>
+La</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_14Si2">
@@ -279,7 +279,7 @@ La2</string>
       <string>
 
 
-Si2</string>
+Si</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B6La">
@@ -329,7 +329,7 @@ La</string>
       <string>
 
 
-Do2</string>
+Do</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B7Si">
@@ -379,7 +379,7 @@ Si</string>
       <string>
 
 
-Mi2</string>
+Mi</string>
      </property>
     </widget>
     <widget class="QPushButton" name="B_11Fa2">
@@ -404,7 +404,7 @@ Mi2</string>
       <string>
 
 
-Fa2</string>
+Fa</string>
      </property>
     </widget>
     <widget class="QPushButton" name="C1">
@@ -578,6 +578,19 @@ color: white;</string>
      </property>
      <property name="text">
       <string>La#</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="aide">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Aide</string>
      </property>
     </widget>
    </widget>
