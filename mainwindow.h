@@ -20,6 +20,8 @@
 #include <dirent.h>
 #include <sys/types.h>
 #include <sstream>
+#include "note.h"
+
 
 
 namespace Ui {

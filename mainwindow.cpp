@@ -30,7 +30,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ratio1->setText("Réussite");
 
 
-    //ratio->setSizePolicy();
 
     QPushButton* rejouer= new QPushButton();
     rejouer->setText("Rejouer");
@@ -225,6 +224,7 @@ void MainWindow::enable(){
     }
 }
 
+//regarde si il est temps d'afficher le score et si oui l'affiche a la place du piano
 void MainWindow::score(){
     if(nbNotes == nbNotesJouer){
         keybord->hide();
@@ -246,7 +246,7 @@ void MainWindow::score(){
         }
         double ratio = nbNotesBonnes/(nbNotesFausse+nbNotesBonnes) *100;
 
-        str = "Reussite : " + intToString(nbNotesBonnes);
+        str = "Bonnes: " + intToString(nbNotesBonnes);
         tmp = QString::fromStdString(str);
         this->nbNotesBonnes->setText(tmp);
 
@@ -621,3 +621,5 @@ void MainWindow::on_aide_stateChanged(int arg1)
 
     }
 }
+
+
